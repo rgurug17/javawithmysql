@@ -7,4 +7,4 @@ WORKDIR /
 # Running java compiler to .java file
 RUN javac DockerConnectMySQL.java
 # Starts application while starting the container
-CMD ["java", "-classpath", "mysql-connector-java-5.1.6.jar:.","DockerConnectMySQL"]
+CMD ["java", "-classpath", "mysql-connector-java-5.1.6-bin.jar:.","DockerConnectMySQL"]
